@@ -208,12 +208,12 @@ body {
     padding-left: 32px;
     padding-right: 30px;
     height: 266px;
-    padding-bottom: 98px;
+    padding-bottom: 108px;
     overflow: hidden;
   }
 
   .swiper--open {
-    height: 348px;
+    height: 360px;
   }
 
   .swiper-wrapper {
