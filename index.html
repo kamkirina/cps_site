@@ -5,88 +5,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="style.css">
-    <title>CPS сервис Dell</title>
+    <title>Slider</title>
 </head>
 
 <body>
-    <header>
+    <div class="slider">
         <div class="container">
-            <div class="header">
-                <div class="header__menu">
-                    <button class="header__burger" type="button">
-                        <img src="images/burger.svg" alt="menu">
-                    </button>
-                    <a class="header__logo" href="#">
-                        <img src="images/logo.svg" alt="cps">
-                    </a>
-                </div>
-                <div class="header__links">
-                    <div class="header__contacts">
-                        <a class="header__call" href="#">
-
-                            <img src="images/call.svg" alt="позвонить">
-
-                        </a>
-                        <a class="header__message" href="#">
-
-                            <img src="images/chat.svg" alt="написать в чат">
-
-                        </a>
-                        <a class="header__profile" href="#">
-
-                            <img src="images/profile.svg" alt="войти">
-
-                        </a>
+                <h2 class="slider__title">
+                Ремонт техники различных брендов
+                </h2>
+                    <div class="swiper">
+                                <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <img class="slider__logo" src="../slider/images/Lenovo.svg" alt="логотип бренда">
+                                    <a class="slider__go" href="#"><img src="../slider/images/go.svg" alt="подробности"></a>
+                                </div>
+                                <div class="swiper-slide">
+                                     <img class="slider__logo" src="../slider/images/samsung.svg" alt="логотип бренда">
+                                    <a class="slider__go" href="#"><img src="../slider/images/go.svg" alt="подробности"></a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="slider__logo" src="../slider/images/apple.svg" alt="логотип бренда">
+                                    <a class="slider__go" href="#"><img src="../slider/images/go.svg" alt="подробности"></a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="slider__logo" src="../slider/images/viewSonic.svg" alt="логотип бренда">
+                                    <a class="slider__go" href="#"><img src="../slider/images/go.svg" alt="подробности"></a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="slider__logo" src="../slider/images/bosch.svg" alt="логотип бренда">
+                                    <a class="slider__go" href="#"><img src="../slider/images/go.svg" alt="подробности"></a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="slider__logo" src="../slider/images/hp.svg" alt="логотип бренда">
+                                    <a class="slider__go" href="#"><img src="../slider/images/go.svg" alt="подробности"></a>
+                                </div>
+                                <button class="slider__show-tablet show">Показать все</button>
+                                <div class="swiper-slide">
+                                    <img class="slider__logo" src="../slider/images/acer.svg" alt="логотип бренда">
+                                    <a class="slider__go" href="#"><img src="../slider/images/go.svg" alt="подробности"></a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="slider__logo" src="../slider/images/sony.svg" alt="логотип бренда">
+                                    <a class="slider__go" href="#"><img src="../slider/images/go.svg" alt="подробности"></a>
+                                </div>
+                                <button class="slider__show show">Показать все</button>
+                                <div class="swiper-slide">
+                                    <img class="slider__logo" src="../slider/images/Lenovo.svg" alt="логотип бренда">
+                                    <a class="slider__go" href="#"><img src="../slider/images/go.svg" alt="подробности"></a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="slider__logo" src="../slider/images/samsung.svg" alt="логотип бренда">
+                                    <a class="slider__go" href="#"><img src="../slider/images/go.svg" alt="подробности"></a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="slider__logo" src="../slider/images/apple.svg" alt="логотип бренда">
+                                    <a class="slider__go" href="#"><img src="../slider/images/go.svg" alt="подробности"></a>
+                                </div>
+                                <button class="slider__hide">Скрыть</button>
+                            </div>
+                                <!-- If we need pagination -->
+                             <div class="swiper-pagination"></div>
                     </div>
-
-                    <div class="header__servise servise">
-                        <a class="servise__repair" href="#"><span>Статус ремонта</span>
-                            <img src="images/repair.svg" alt="ремонт">
-                        </a>
-                        <a class="servise__check" href="#"><span>Оставить заявку</span>
-
-                            <img src="images/checkstatus.svg" alt="узнать статус">
-
-                        </a>
-                    </div>
-                </div>
-            </div>
         </div>
-    </header>
-    <main>
+    </div>
 
-        <section class="description">
-            <div class="container">
-                <h1 class="description__title title">Услуги и сервисы</h1>
-                <nav class="description__main-nav main-nav">
-                    <a href="#" class="main-nav__item active">Ремонтируемые бренды</a>
-                    <a href="#" class="main-nav__item">Ремонтируемые устройства</a>
-                    <a href="#" class="main-nav__item">Цены на услуги</a>
-                    <a href="#" class="main-nav__item">Адреса сервисных центров</a>
-                    <a href="#" class="main-nav__item">Специальные цены</a>
-                    <a href="#" class="main-nav__item">Отзывы</a>
-                </nav>
-                <div class="description__content">
 
-                    <p class="description__text">
-                        Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете
-                        отремонтировать свой ноутбук Dell с официальной гарантией производителя.
-                        <button class="description__button_1 read-more-btn" type="button">Читать далее</button>
-
-                        Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера,
-                        <button class="description__button_2 read-more-btn" type="button">Читать далее</button>
-                        что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются
-                        по рекомендациям и, в свою очередь, советуют нас родным и близким.
-                        <button class="description__button_3 read-more-btn" type="button">Читать далее</button>
-                    </p>
-
-                    <img class="description__image" src="images/main.jpg" alt="cps главное фото">
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer></footer>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="../slider/slider.js"></script>
+   </body>
 
 </html>
