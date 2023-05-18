@@ -37,7 +37,7 @@ button {
   font-style: normal;
   font-weight: 400;
   src: local("TTLake"),
-    url("/fonts/TTLakes/TTLakes-Regular.woff") format("woff");
+    url("fonts/TTLakes/TTLakes-Regular.woff") format("woff");
 }
 
 body {
@@ -161,7 +161,7 @@ body {
     display: none;
   }
   .show::before {
-    content: url(../slider/images/show.svg);
+    content: url(images/show.svg);
     vertical-align: middle;
     margin-right: 9px;
   }
@@ -176,7 +176,7 @@ body {
   }
 
   .slider__hide::before {
-    content: url(../slider/images/hide.svg);
+    content: url(images/hide.svg);
     vertical-align: middle;
     margin-right: 9px;
   }
